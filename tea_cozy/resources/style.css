@@ -1,0 +1,94 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.header {
+	display: flex;
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	align-items: center;
+	padding-left: 10px;
+}
+
+.logo {
+	display: flex;
+	flex-direction: flex-start;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.nav {
+
+}
+
+.nav a {
+	color: seashell;
+}
+
+.hero {
+	background: url("./images/img-mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mission {
+	background-color: black;
+	width: 1200px;
+}
+
+.tom {
+	width: 1000px;
+
+}
+
+.tom-vis {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.tom-vis img {
+	height: 200px;
+	width: 300px;
+	padding-bottom: 10px;
+}
+
+.locations {
+	height: 500px;
+	background: url("./images/img-locations-background.jpg");
+}
+
+.location-row {
+	display: flex;
+	justfiy-content: center;
+	align-items: center;
+	padding-top: 15px;
+}
+
+.location-block {
+	background: black;
+	opacity: 1;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 300px;
+}
+
+.footer {
+	height: 200px;
+}
+
+.copyright {
+	text-align: left;
+	padding-left: 20px;
+}
